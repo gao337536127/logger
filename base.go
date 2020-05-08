@@ -4,6 +4,7 @@ import (
 	"container/list"
 )
 
+//LogMessage 基本的日志数据结构
 type LogMessage struct {
 	levelno    uint
 	levelname  string
