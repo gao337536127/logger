@@ -27,6 +27,7 @@ const (
 	critical
 )
 
+//ProcessFunc 日志处理方法结构
 type ProcessFunc func(logMessage *LogMessage)
 
 var messageChannels = list.New()
